@@ -1,0 +1,34 @@
+/*Global variables*/
+:root {
+    --black: #06262A;
+    --gray:#BCBCBC; 
+    --green: #1CE8C1;
+    --white: #FDFDFD;
+    --blue: #F0ECFF;
+    --gray-raro: #F4F2ED;
+
+    --color-primary: var(--green);
+    --color-secondary: var(--blue);
+    --color-black: var(--black);
+    --color-white: var(--white);
+    --color-gray: var(--gray);
+
+    --size-24: 24px;
+    --size-72: 72px;
+    --text-size-display: 65px;
+    --text-size-heading1: 50px;
+    --text-size-heading2: 32px;
+    --text-size-heading3: var(--size-24);
+    --text-size-subtitle-light: var(--size-24);
+    --text-size-subtitle-medium: var(--size-24);
+
+    --size-16: 16px;
+    --text-size-body1-roman: var(--size-16);
+    --text-size-body1-bold: var(--size-16);
+    --text-size-body1-buttons: var(--size-16);
+    --text-size-body1-caption: var(--size-16);
+    --text-size-numbers: var(--size-72);
+
+    --font-family-primary: 'Roboto';/*Roc Grotesk*/
+    --font-family-secondary: 'Roboto';/*'Neue Haas Grotesk Display Pro';*/
+}

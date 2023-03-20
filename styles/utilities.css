@@ -1,0 +1,93 @@
+@import url('./variables.css');
+.width-full {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.body-padding-top {
+    padding-top: 136px;
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.bg-gray-raro {
+    background-color: var(--gray-raro);
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-black {
+    color: var(--color-black);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.border-bottom-green {
+    background-color: var(--color-primary);
+    width: 48px;
+    height: 2px;
+}
+
+.mb-24px {
+    margin-bottom: 24px;
+}
+
+.mb-40px {
+    margin-bottom: 40px;
+}
+
+.mt-40px {
+    margin-bottom: 40px;
+}
+
+.mb-120px {
+    margin-bottom: 120px;
+}
+
+.mt-50px {
+    margin-top: 50px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.pt-160px {
+    padding-top: 160px;
+}
+
+.pb-140px {
+    padding-bottom: 140px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    .hide-sm {
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hide-md {
+        display: none;
+    }
+
+    .circle-icon-mb {
+        margin-bottom: 48px;
+    }
+}
