@@ -29,6 +29,6 @@
     --text-size-body1-caption: var(--size-16);
     --text-size-numbers: var(--size-72);
 
-    --font-family-primary: 'Roboto';/*Roc Grotesk*/
-    --font-family-secondary: 'Roboto';/*'Neue Haas Grotesk Display Pro';*/
+    --font-family-primary: 'Roboto', 'RocGrotesk', 'Roc Grotesk';
+    --font-family-secondary: 'Neue Haas Grotesk Display Pro';
 }

@@ -95,6 +95,14 @@
     z-index: 1000000;
     background-color: var(--color-white);
 }
+
+.position-fixed {
+    position: -webkit-fixed;
+    position: fixed;
+    top: 0;
+    z-index: 1000000;
+    background-color: var(--color-white);
+}
 @media screen and (max-width: 480px) {
     .hide-sm {
         display: none;

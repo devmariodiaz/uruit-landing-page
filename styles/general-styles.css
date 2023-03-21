@@ -10,6 +10,7 @@
 
 body{
     font-family: var(--font-family-primary);
+    font-family: 'Roc';
     color: var(--black);
 }
 
@@ -53,7 +54,7 @@ body{
 
 .text-subtitle-medium {
     font-family: var(--font-family-secondary);
-    font-style: normal;
+    font-style: semibold;
     font-weight: 600;
     font-size: var(--text-size-subtitle-medium);
     line-height: 162%;
@@ -77,13 +78,7 @@ body{
     letter-spacing: 0.03em;
 }
 
-.text-body1-buttons {
-    font-family: var(--font-family-primary);
-    font-style: normal;
-    font-weight: 700;
-    font-size: var(--text-size-body1-buttons);
-    line-height: 24px;
-}
+
 
 .text-caption {
     font-family: var(--font-family-secondary);
@@ -155,6 +150,14 @@ body{
     background-color: var(--color-secondary) 
 }
 
+.text-body1-buttons {
+    font-family: var(--font-family-primary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--text-size-body1-buttons);
+    line-height: 24px;
+}
+
 /* Input */
 .input-default
  {
@@ -224,14 +227,6 @@ textarea::placeholder {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-.nuevoEstiloHero {
-    /* .text-display */       
-    font-style: normal;
-    font-weight: 700;
-    font-size: var(--text-size-display);
-    line-height: 72px;
-    
 }
 
 .circles {
