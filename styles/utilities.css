@@ -35,6 +35,10 @@
     color: var(--color-primary);
 }
 
+.text-font-secondary {
+    font-family: var(--font-family-secondary);
+}
+
 .border-bottom-green {
     background-color: var(--color-primary);
     width: 48px;
