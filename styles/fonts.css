@@ -3,7 +3,7 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 700;
-     src: url('./../fonts/RocGrotesk/KosticRocGroteskBold.otf') format("open/otf"), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskBold.otf') format("opentype"); /* Super Modern Browsers */
 }
 
 
@@ -12,14 +12,14 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 800;
-     src: url('./../fonts/RocGrotesk/KosticRocGroteskExtraBold.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('./../fonts/RocGrotesk/KosticRocGroteskExtraBold.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 @font-face {
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 200;
-     src: url('../fonts/RocGrotesk/KosticRocGroteskExtraLight.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskExtraLight.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -27,7 +27,7 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 300;
-     src: url('../fonts/RocGrotesk/KosticRocGroteskLight.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskLight.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -35,7 +35,7 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 500;
-     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -43,7 +43,7 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/RocGrotesk/KosticRocGroteskRegular.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskRegular.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -51,7 +51,7 @@
      font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 100;
-     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'); /* Super Modern Browsers */
 }
 
 /* =================================================================*/
@@ -60,7 +60,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 900;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBlack.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBlack.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -68,7 +68,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 700;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -76,7 +76,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 800;/*no tenemos extra bold*/
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -84,7 +84,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 200;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -92,7 +92,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 300;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -100,7 +100,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 500;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayMedium.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayMedium.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -108,7 +108,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayRoman.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayRoman.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 @font-face {
@@ -116,7 +116,7 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 100;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayThin.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayThin.ttf') format('truetype'); /* Super Modern Browsers */
 }
 
 /*
@@ -127,5 +127,5 @@ Font para 600 no tenemos, deberia ser Semi Bold, pero tenemos bold, medium, blac
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 600;
-     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('truetype'); /* Super Modern Browsers */
 }
