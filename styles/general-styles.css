@@ -1,3 +1,4 @@
+
 @import url('utilities.css');
 /*Style guide*/
 *, *::before, *::after {
@@ -207,6 +208,8 @@ textarea::placeholder {
     align-items: center;
     padding: 0px 40px;
     height: 136px;
+
+    transition: all 0.5s ease;
 }
 
 .top-bar .logo {
@@ -485,10 +488,13 @@ border: 1px solid #FDFDFD;
         width: 95%;
         margin: 0 auto;
     }
+
+    .circle {
+        width: 69%;
+    }
   }
 
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {  } */
+
 
 /* // X-Large devices (large desktops, 1200px and up) */
 /*@media (min-width: 1200px) { 
@@ -521,7 +527,7 @@ border: 1px solid #FDFDFD;
 
     .circles {
         grid-template-columns: 33.33% 33.33% 33.33%;
-        width: calc(100%);
+        width: 100%;
     }
 
     .circle {
@@ -556,3 +562,17 @@ border: 1px solid #FDFDFD;
         gap: 24px
     }
 }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .circle {
+        width: 118%;
+    }
+
+    .circle-text {
+        position: absolute;
+        bottom: 13%;
+        width: 100%;
+        text-align: center;
+    }
+  }
