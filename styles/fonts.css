@@ -1,109 +1,106 @@
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Roc Grotesk';
-     font-style: bold;
+     font-family: 'RocGrotesk';
+     font-style: normal;
      font-weight: 700;
-     src: 
-          local('Roc Grotesk'),
-          local('Roc-Grotesk'),
-          local('RocGrotesk'),
-          url('../fonts/RocGrotesk/KosticRocGroteskBold.otf') format("opentype"), /* Super Modern Browsers */
+     src: url('./../fonts/RocGrotesk/KosticRocGroteskBold.otf') format("open/otf"), /* Super Modern Browsers */
 }
 
-
-@font-face {
-     font-family: 'Roc Grotesk';
-     font-style: 'extra-bold';
-     font-weight: 800;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ ExtraBold.otf') format('opentype'), /* Super Modern Browsers */
-}
-
-@font-face {
-     font-family: 'Roc Grotesk';
-     font-style: 'extra-light';
-     font-weight: 200;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ ExtraLight.otf') format('opentype'), /* Super Modern Browsers */
-}
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Roc Grotesk';
-     font-style: 'light';
-     font-weight: 300;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ Light.otf') format('opentype'), /* Super Modern Browsers */
+     font-family: 'RocGrotesk';
+     font-style: normal;
+     font-weight: 800;
+     src: url('./../fonts/RocGrotesk/KosticRocGroteskExtraBold.otf') format('opentype'), /* Super Modern Browsers */
+}
+
+@font-face {
+     font-family: 'RocGrotesk';
+     font-style: normal;
+     font-weight: 200;
+     src: url('../fonts/RocGrotesk/KosticRocGroteskExtraLight.otf') format('opentype'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'RocGrotesk';
-     font-style: medium;
-     font-weight: 500;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ Medium.otf') format('opentype'), /* Super Modern Browsers */
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/RocGrotesk/KosticRocGroteskLight.otf') format('opentype'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Roc Grotesk';
+     font-family: 'RocGrotesk';
+     font-style: normal;
+     font-weight: 500;
+     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'), /* Super Modern Browsers */
+}
+
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'RocGrotesk';
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ Regular.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskRegular.otf') format('opentype'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Roc Grotesk';
-     font-style: thin;
+     font-family: 'RocGrotesk';
+     font-style: normal;
      font-weight: 100;
-     src: url('../fonts/RocGrotesk/Kostic\ -\ Roc\ Grotesk\ Medium.otf') format('opentype'), /* Super Modern Browsers */
+     src: url('../fonts/RocGrotesk/KosticRocGroteskMedium.otf') format('opentype'), /* Super Modern Browsers */
 }
 
 /* =================================================================*/
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: black;
+     font-style: normal;
      font-weight: 900;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayBlack.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBlack.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: bold;
+     font-style: normal;
      font-weight: 700;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: 'extra-bold';
+     font-style: normal;
      font-weight: 800;/*no tenemos extra bold*/
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: 'extra-light';
+     font-style: normal;
      font-weight: 200;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: 'light';
+     font-style: normal;
      font-weight: 300;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayLight.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: medium;
+     font-style: normal;
      font-weight: 500;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayMedium.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayMedium.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
@@ -111,15 +108,15 @@
      font-family: 'Neue Haas Grotesk Display Pro';
      font-style: normal;
      font-weight: 400;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayRoman.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayRoman.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: thin;
+     font-style: normal;
      font-weight: 100;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayThin.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayThin.ttf') format('ttf'), /* Super Modern Browsers */
 }
 
 /*
@@ -128,7 +125,7 @@ Font para 600 no tenemos, deberia ser Semi Bold, pero tenemos bold, medium, blac
 @font-face {
      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
      font-family: 'Neue Haas Grotesk Display Pro';
-     font-style: 'normal';
+     font-style: normal;
      font-weight: 600;
-     src: url('../fonts/Neue\ Haas\ Grotesk\ Display\ Pro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
+     src: url('../fonts/NeueHaasGroteskDisplayPro/NeueHaasDisplayBold.ttf') format('ttf'), /* Super Modern Browsers */
 }
