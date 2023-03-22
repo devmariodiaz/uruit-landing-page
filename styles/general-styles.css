@@ -206,7 +206,6 @@ textarea::placeholder {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
     height: 136px;
 
     transition: all 0.5s ease;
@@ -228,7 +227,7 @@ textarea::placeholder {
 
 .new-hero {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 200px);
 }
 .new-hero::before {
     content: '';
@@ -497,32 +496,13 @@ border: 1px solid #FDFDFD;
 
 
 /* // X-Large devices (large desktops, 1200px and up) */
-/*@media (min-width: 1200px) { 
-    .circles {
-        border: solid 1px;
-    }
- }*/
+@media (min-width: 1200px) { 
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-        max-width: 1320px;
-    }
-}
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1520px) {
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-        max-width: 1520px;
-    }
-}
-
-@media screen and (min-width: 769px) {
     .hero {
         /*border: 11px solid #FF2E2E;*/
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        padding: 1px 2px 0px 91px;
     }
 
     .circles {
@@ -532,7 +512,7 @@ border: 1px solid #FDFDFD;
 
     .circle {
         max-width: 516px;
-        width: 516px;
+        width: 119%;
     }
     .move-top-first {
         position: relative;
@@ -561,11 +541,35 @@ border: 1px solid #FDFDFD;
         grid-template-rows: 1fr 1fr;
         gap: 24px
     }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1520px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1520px;
+    }
+    .circles {
+        transform: translateX(2.1%);
+    }
+    .circle {
+        max-width: 516px;
+        width: 150%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .circle {
+   /* .circle {
         width: 118%;
     }
 
@@ -574,5 +578,5 @@ border: 1px solid #FDFDFD;
         bottom: 13%;
         width: 100%;
         text-align: center;
-    }
+    }*/
   }
