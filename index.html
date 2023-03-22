@@ -32,7 +32,10 @@
         <div class="row">
           <div class="col-12">
             <section class="hero width-full">
-              <div class="text-display text-font-secondary">
+              <div
+                class="text-display text-font-secondary"
+                style="position: relative; z-index: 1030"
+              >
                 We build the <br class="hide-sm" />structure, the<br
                   class="hide-sm"
                 />
@@ -94,7 +97,7 @@
                       <img src="images/strategy-icon.png" />
                     </div>
                     <div class="circle__label mb-24px">Strategy</div>
-                    <div class="circle__description">
+                    <div class="circle__description text-body1-roman">
                       Collect both quantitative and<br />
                       qualitative data to make informed<br />
                       decisions.
@@ -107,7 +110,7 @@
                       <img src="images/product-icon.png" />
                     </div>
                     <div class="circle__label mb-24px">Product</div>
-                    <div class="circle__description">
+                    <div class="circle__description text-body1-roman">
                       Implement the strategy within your<br />
                       product to minimize the number of<br />
                       iterations required.
@@ -120,7 +123,7 @@
                       <img src="images/technology-icon.png" />
                     </div>
                     <div class="circle__label mb-24px">Technology</div>
-                    <div class="circle__description">
+                    <div class="circle__description text-body1-roman">
                       Refocus your strategy on practical, real-<br />world
                       applications, and enhance the<br />
                       efficiency of your code phase with<br />
@@ -193,7 +196,7 @@
                     >
                       Strategy
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Design Ops<br />
                       Research<br />
                       Data strategy<br />
@@ -204,7 +207,7 @@
                     <div class="card-shadow-description-title text-body1-bold">
                       Product
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Re-Branding <br />
                       Face-lift<br />
                       Content Design<br />
@@ -215,7 +218,7 @@
                     <div class="card-shadow-description-title text-body1-bold">
                       Technology
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Cross-Platform Development<br />
                       QA<br />
                       Continuos integration and automated test<br />
@@ -253,7 +256,7 @@
                     >
                       Strategy
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Design Ops<br />
                       Research<br />
                       Data strategy<br />
@@ -264,7 +267,7 @@
                     <div class="card-shadow-description-title text-body1-bold">
                       Product
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Re-Branding <br />
                       Face-lift<br />
                       Content Design<br />
@@ -275,7 +278,7 @@
                     <div class="card-shadow-description-title text-body1-bold">
                       Technology
                     </div>
-                    <div class="card-shadow-description">
+                    <div class="card-shadow-description text-body1-roman">
                       Cross-Platform Development<br />
                       QA<br />
                       Continuos integration and automated test<br />
@@ -422,10 +425,12 @@
       function changeMainHeaderBgColor() {
         if (window.pageYOffset > sticky) {
           header.classList.add("position-fixed-navbar");
-          // header.classList.add("shadow");
+          document.body.classList.add("padding-top-for-position-fixed-navbar");
         } else {
           header.classList.remove("position-fixed-navbar");
-          // header.classList.remove("shadow");
+          document.body.classList.remove(
+            "padding-top-for-position-fixed-navbar"
+          );
         }
       }
     </script>

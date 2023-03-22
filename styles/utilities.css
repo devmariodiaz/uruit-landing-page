@@ -110,6 +110,10 @@
     backdrop-filter: blur(6px);
     transition: all 0.5s ease;
 }
+
+.padding-top-for-position-fixed-navbar {
+    padding-top: 135px;
+}
 @media screen and (max-width: 480px) {
     .hide-sm {
         display: none;
