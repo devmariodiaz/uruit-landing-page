@@ -206,11 +206,7 @@ textarea::placeholder {
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
-
-    /*position: fixed;*/
     height: 136px;
-    left: 1px;
-    top: 0px;
 }
 
 .top-bar .logo {
