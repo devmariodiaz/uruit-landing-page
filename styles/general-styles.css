@@ -46,7 +46,7 @@ body{
 .text-subtitle-light {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: var(--text-size-subtitle-light);
     line-height: 162%;
 }
@@ -62,7 +62,7 @@ body{
 .text-body1-roman {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: var(--text-size-body1-roman);
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -117,6 +117,7 @@ body{
     border: unset;
     font-size: var(----text-size-body1-bold);
     font-weight: 700;
+    
 }
 
 .btn-primary {
@@ -139,6 +140,7 @@ body{
 }
 .btn-primary:hover {    
     border: 1px solid #000000;
+    cursor: pointer;
 }
 .btn-secondary {
     background-color: transparent;
@@ -146,7 +148,8 @@ body{
     border: 1px solid #000000;
 }
 .btn-secondary:hover {
-    background-color: var(--color-secondary) 
+    background-color: var(--color-secondary);
+    cursor: pointer;
 }
 
 .text-body1-buttons {
@@ -282,7 +285,7 @@ textarea::placeholder {
 .circle__description {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
