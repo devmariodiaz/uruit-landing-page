@@ -285,7 +285,7 @@ textarea::placeholder {
 .circle__description {
     font-family: var(--font-family-secondary);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 16px;
     line-height: 24px;
     /* or 150% */
@@ -295,6 +295,7 @@ textarea::placeholder {
 
     color: #E9E9E9;
 }
+
 .move-left {
     position: relative;
     /*left: -272px;*/
