@@ -448,13 +448,6 @@ textarea::placeholder {
   left: 0;
 }
 
-.section-number-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 34px;
-}
-
 .vertical-separator {
   width: 170px;
   height: 2px;

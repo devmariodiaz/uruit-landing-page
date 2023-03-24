@@ -1,137 +1,141 @@
-@import url('./variables.css');
+@import url("./variables.css");
 .width-full {
-    width: 100%;
+  width: 100%;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
 }
 
 .body-padding-top {
-    padding-top: 136px;
+  padding-top: 136px;
 }
 
 .bg-black {
-    background-color: var(--color-black);
+  background-color: var(--color-black);
 }
 
 .bg-white {
-    background-color: var(--color-white);
+  background-color: var(--color-white);
 }
 
 .bg-gray-raro {
-    background-color: var(--gray-raro);
+  background-color: var(--gray-raro);
 }
 
 .text-white {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 .text-black {
-    color: var(--color-black);
+  color: var(--color-black);
 }
 
 .text-primary {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .text-font-secondary {
-    font-family: var(--font-family-secondary);
+  font-family: var(--font-family-secondary);
 }
 
 .border-bottom-green {
-    background-color: var(--color-primary);
-    width: 48px;
-    height: 2px;
+  background-color: var(--color-primary);
+  width: 48px;
+  height: 2px;
 }
 
 .mb-24px {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .mb-40px {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mb-96px {
-    margin-bottom: 96px;
+  margin-bottom: 96px;
 }
 
 .mt-40px {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mb-120px {
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 }
 
 .mt-50px {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .ml-auto {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .mx-114px {
-    margin-left: 4px;
-    margin-right: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .ml-114px {
-    margin-left: 114px;
+  margin-left: 114px;
 }
 
 .pt-160px {
-    padding-top: 160px;
+  padding-top: 160px;
 }
 
 .pb-140px {
-    padding-bottom: 140px;
+  padding-bottom: 140px;
 }
 
 .position-relative {
-    position: relative;
+  position: relative;
 }
 
 .position-sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 1000000;
-    background-color: var(--color-white);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000000;
+  background-color: var(--color-white);
 }
 
 .position-fixed-navbar {
-    position: -webkit-fixed;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1031;
-    background: rgba(253, 253, 253, 0.9);
-    backdrop-filter: blur(6px);
-    transition: all 0.5s ease;
+  position: -webkit-fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1031;
+  background: rgba(253, 253, 253, 0.9);
+  backdrop-filter: blur(6px);
+  transition: all 0.5s ease;
 }
 
 .padding-top-for-position-fixed-navbar {
-    padding-top: 135px;
+  padding-top: 135px;
 }
 @media screen and (max-width: 480px) {
-    .hide-sm {
-        display: none;
-    }
+  .hide-sm {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
-    .hide-md {
-        display: none;
-    }
+  .hide-md {
+    display: none;
+  }
 
-    .circle-icon-mb {
-        margin-bottom: 48px;
-    }
+  .circle-icon-mb {
+    margin-bottom: 48px;
+  }
 
-    .mx-114px {
-        margin-left: 114px;
-        margin-right: 114px;
-    }
+  .mx-114px {
+    margin-left: 114px;
+    margin-right: 114px;
+  }
 }
