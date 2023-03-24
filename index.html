@@ -352,49 +352,54 @@
               <br />
               <br />
               <br />
-              <div class="contact-form">
-                <div class="input-text-container">
-                  <input
-                    type="text"
-                    class="input-default text-subtitle-medium width-full"
-                    placeholder="Name"
-                    value=""
-                  />
-                  <input
-                    type="text"
-                    class="input-default text-subtitle-medium width-full"
-                    placeholder="Company"
-                    value=""
-                  />
-                  <input
-                    type="email"
-                    class="input-default text-subtitle-medium width-full"
-                    placeholder="Email"
-                  />
-                  <input
-                    id="phoneNumberInput"
-                    type="tel"
-                    class="input-default text-subtitle-medium width-full"
-                    placeholder="Phone number"
-                  />
+              <form action="#">
+                <div class="contact-form">
+                  <div class="input-text-container">
+                    <input
+                      required
+                      type="text"
+                      class="input-default text-subtitle-medium width-full"
+                      placeholder="Name"
+                      value=""
+                    />
+                    <input
+                      type="text"
+                      class="input-default text-subtitle-medium width-full"
+                      placeholder="Company"
+                      value=""
+                    />
+                    <input
+                      required
+                      type="email"
+                      class="input-default text-subtitle-medium width-full"
+                      placeholder="Email"
+                    />
+                    <input
+                      id="phoneNumberInput"
+                      type="tel"
+                      class="input-default text-subtitle-medium width-full"
+                      placeholder="Phone number"
+                    />
+                  </div>
+
+                  <textarea
+                    required
+                    rows="4"
+                    class="textarea-default text-subtitle-medium width-full mt-50px"
+                    placeholder="Write a message for us"
+                  ></textarea>
+
+                  <button
+                    class="btn btn-primary text-body1-buttons ml-auto mt-50px"
+                  >
+                    Send message
+                  </button>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                 </div>
-
-                <textarea
-                  rows="4"
-                  class="textarea-default text-subtitle-medium width-full mt-50px"
-                  placeholder="Write a message for us"
-                ></textarea>
-
-                <button
-                  class="btn btn-primary text-body1-buttons ml-auto mt-50px"
-                >
-                  Send message
-                </button>
-                <br />
-                <br />
-                <br />
-                <br />
-              </div>
+              </form>
             </section>
           </div>
         </div>
