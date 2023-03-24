@@ -490,13 +490,6 @@ textarea::placeholder {
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .hero {
-    /*border: 11px solid #FF2E2E;*/
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
-
   .circles {
     grid-template-columns: 33.33% 33.33% 33.33%;
     width: 100%;
