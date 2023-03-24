@@ -9,6 +9,18 @@
     <link rel="stylesheet" href="./styles/bootstrap-grid.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
     <link rel="stylesheet" href="./styles/general-styles.css" />
+    <link rel="stylesheet" href="styles/intlTelInput.css" />
+    <style>
+      .iti__flag {
+        background-image: url("images/intlTel/img/flags.png");
+      }
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .iti__flag {
+          background-image: url("images/intlTel/img/flags@2x.png");
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container-fluid new-hero">
@@ -81,9 +93,12 @@
                   ></div>
                 </div>
               </div>
-              <div class="text-white text-center mb-120px mx-114px text-subtitle-light">
+              <div
+                class="text-white text-center mb-120px mx-114px text-subtitle-light"
+              >
                 We have three commercial forces that help ensure designs result
-                in business profit and generate positive experiences for the audience, addressing their pain points as users of a product.
+                in business profit and generate positive experiences for the
+                audience, addressing their pain points as users of a product.
               </div>
 
               <div class="circles">
@@ -156,7 +171,9 @@
                   ></div>
                 </div>
               </div>
-              <div class="title-section mb-40px ml-114px">Audience & market fit</div>
+              <div class="title-section mb-40px ml-114px">
+                Audience & market fit
+              </div>
               <div class="text-subtitle-light ml-114px">
                 We as a team conducts research to gather information and
                 insights about the problem and its context. This might include
@@ -355,7 +372,8 @@
                     placeholder="Email"
                   />
                   <input
-                    type="number"
+                    id="phoneNumberInput"
+                    type="tel"
                     class="input-default text-subtitle-medium width-full"
                     placeholder="Phone number"
                   />
@@ -429,6 +447,14 @@
           );
         }
       }
+    </script>
+    <script src="scripts/intlTelInput.min.js"></script>
+    <script>
+      const input = document.querySelector("#phoneNumberInput");
+      window.intlTelInput(input, {
+        // any initialisation options go here
+        utilsScript: "scripts/utils.js",
+      });
     </script>
   </body>
 </html>
